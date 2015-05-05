@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{ab3d7787-82da-4f76-b069-40f95d927fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MCTS">
+      <UniqueIdentifier>{587c7824-3d83-4527-9ee7-a30f0ad7fd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{dcc5636b-fcf6-417a-a176-5d6d35c98980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MCTSNode">
+      <UniqueIdentifier>{296aa6d8-7be6-46ec-9376-4102717dd7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MCTSNode">
+      <UniqueIdentifier>{736717a8-9f01-4fe4-8d10-45f904619ab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProjectFiles\MCTS\CGAMCTS.h">
+      <Filter>Header Files\MCTS</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\MCTSNode\CGAMCTSNode.h">
+      <Filter>Header Files\MCTSNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\MCTSNode\CMCTSNodeGuard.h">
+      <Filter>Header Files\MCTSNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\MCTSNode\CMCTSNodePrisoner.h">
+      <Filter>Header Files\MCTSNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\MCTSNode\NodesSharedFunctions.h">
+      <Filter>Header Files\MCTSNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\Players\CAPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\Players\CGuard.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\Players\CPrisoner.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\CGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\CGameField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\CheckMemoryLeaks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\DataStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFiles\SharedFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectFiles\Players\CAPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\Players\CGuard.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\Players\CPrisoner.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\MCTSNode\CMCTSNodeGuard.cpp">
+      <Filter>Source Files\MCTSNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\MCTSNode\CMCTSNodePrisoner.cpp">
+      <Filter>Source Files\MCTSNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\MCTSNode\NodesSharedFunctions.cpp">
+      <Filter>Source Files\MCTSNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\CGameField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFiles\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ReadMe.txt" />
+  </ItemGroup>
+</Project>

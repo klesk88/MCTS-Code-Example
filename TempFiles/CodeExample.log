@@ -1,0 +1,11 @@
+﻿  CPrisoner.cpp
+  CGuard.cpp
+  CAPlayer.cpp
+  NodesSharedFunctions.cpp
+  CMCTSNodePrisoner.cpp
+  CMCTSNodeGuard.cpp
+  Main.cpp
+  CGameField.cpp
+  CGame.cpp
+  Generazione del codice in corso...
+  CodeExample.vcxproj -> D:\DropBox\CV\MicheleErmacoraCodeExample\CodeExample\Debug\CodeExample.exe
